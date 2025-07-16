@@ -1,0 +1,1 @@
+web: gunicorn -w 1 -k aiohttp.GunicornWebWorker webhook_server:app
